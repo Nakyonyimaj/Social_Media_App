@@ -57,7 +57,7 @@ export default function Signup(props) {
       toast.success('Account Successfully created',{
         position: toast.POSITION.TOP_RIGHT
     });
-    } catch (err) {git 
+    } catch (err) {
       toast.error(getError(err),{
         position: toast.POSITION.TOP_RIGHT
     });
